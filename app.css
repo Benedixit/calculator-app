@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+html,
+body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Prompt', sans-serif;
+    background-color: #f58634
+}
+
+.container {
+    background-color: #fff9f9;
+    border-radius: 18px;
+}
+
+.calculator {
+    padding: 10px;
+}
+
+button {
+    font-family: 'Prompt', sans-serif;
+    font-size: 18px;
+    width: 68px;
+    height: 36px;
+    border-radius: 18px;
+    border-width: 0px;
+    outline: none;
+    background-color: #81b214;
+    color: white;
+}
+
+.equal {
+    background-color: #206a5d;
+    color: white;
+    width: 136px;
+    margin-left: 5px
+}
+
+.delete {
+    width: 136px;
+    margin-right: 5px
+}
+
+.clear {
+    width: 136px;
+    margin-left: 5px
+}
+
+.display p {
+    position: absolute;
+    right: 0;
+}
+
+.display_result {
+    background-color: #ffcc29;
+    height: 150px;
+    width: 300px;
+    border-radius: 18px;
+    font-size: 22px;
+    text-align: right;
+    margin-bottom: 10px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.display_result p {
+    margin-right: 18px;
+    margin-left: 18px;
+    padding-top: 10px;
+}
+
+.display p {
+    padding-top: 34px;
+}
+
+.row {
+    padding: 5px;
+}
